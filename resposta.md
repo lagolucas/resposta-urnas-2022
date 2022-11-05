@@ -62,6 +62,10 @@ O problema da evidência usada para embasar esse argumento é que os logs que in
 
 O relatório aponta duas *curiosidades* sobre a eleição brasileira, mas não contém nenhuma informação que seja uma evidência forte da fraude que afirma.
 
+## Propaganda
+
+Acha que esse tipo de análise vale de alguma coisa? Me manda um trocado lá no [github sponsors](https://github.com/sponsors/projeto7c0)
+
 ## Atualizações
 
 Estou deixando esse texto no github para que as pessoas possam ler eventuais alterações que forem incluídas. 
