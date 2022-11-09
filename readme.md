@@ -32,6 +32,7 @@ O primeiro argumento é baseado na seguinte hipótese:
 Os autores escolhem para comparação os resultados da urna modelo 2020 (UE2020) comparando com os resultados das urnas de modelos anteriores (UE2015, UE2013, UE2011, UE2010 e UE2009).
 
 Essa escolha foi justificada pela afirmação que 
+
 > As urnas de modelo anterior a 2020 não têm qualquer documentação de auditoria recente, e relatórios anteriores referem não serem passíveis de auditoria. Não há documentação comprobatória acerca dos modelos 2009/2010/2011/2013/2015.
 
 Existe aqui na minha opinião um erro conceitual, a rotina mais importante realizada antes das eleições são os *testes* das urnas, uma *auditoria* seria uma rotina relevante após a eleição.
@@ -48,19 +49,22 @@ Se o objetivo era comparar urnas com maior garantia de funcionamento fidedigno, 
 
 ## 2. Diferença entre códigos-fontes
 
-O segundo argumento proposto no final dos slides é que houveram cõdigos diferentes dentro de um mesmo modelo de urna.
+O segundo argumento proposto no final dos slides é que houveram códigos diferentes dentro de um mesmo modelo de urna.
 
 Essa afirmação é baseada em uma diferença apontada em uma linha de log gravada durante a configuração da urna pelo TSE.
 
-Vale indicar que essa afirmação **é muito mais importante e baseada em uma evidência mais forte que a anterior**. Aqui cabe a cobrança para que o TSE que demonstre que essa afirmação é falsa.
+Vale indicar que essa afirmação **é mais importante e baseada em uma evidência mais forte que a anterior**. Aqui cabe a cobrança para que o TSE demonstre que essa afirmação é falsa.
 
 O problema da evidência usada para embasar esse argumento é que os logs que indicaram alguma diferença são logs realizados durante uma interação usuário-máquina. Esse tipo de log pode ser influenciado por comportamento diferente de usuários diferentes.
 
+A afirmação que o relatório faz que "nada explica a diferença entre os logs" é uma conclusão errada, o mesmo software operado de modo diferente pelo usuário vai gerar logs diferentes. Resta ao TSE demonstrar como isso acontece para que seja encerrada essa questão.
 
 
 ## Conclusão
 
-O relatório aponta duas *curiosidades* sobre a eleição brasileira, mas não contém nenhuma informação que seja uma evidência forte da fraude que afirma.
+O relatório simplesmente aponta duas *curiosidades* sobre a eleição brasileira, e levanta suspeitas sobre a eleição baseado nisso. Ele não contém nenhuma informação que seja uma evidência forte os suficiente de fraude ou mal funcionamento.
+
+O único ponto relevante (sobre os logs) pode ser encerrado com uma demonstração simples do TSE ou de outros que contenham acesso a urna.
 
 ## Propaganda
 
@@ -69,3 +73,5 @@ Acha que esse tipo de análise vale de alguma coisa? Me manda um trocado lá no 
 ## Atualizações
 
 Estou deixando esse texto no github para que as pessoas possam ler eventuais alterações que forem incluídas. 
+
+* O usuário [Johnson Aquino](https://twitter.com/aquino_johnson/status/1589203772357873664) sugeriu melhorias para o texto que não estava claro.
